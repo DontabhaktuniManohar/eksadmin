@@ -1,0 +1,70 @@
+```
+ 1  kubectl get pods
+    2  kubectl get services
+    3  sh /root/curl-test.sh 
+    4  sh /root/curl-test.sh 
+    5  sh /root/curl-test.sh 
+    6  sh /root/curl-test.sh 
+    7  sh /root/curl-test.sh 
+    8  sh /root/curl-test.sh 
+    9  sh /root/curl-test.sh 
+   10  sh /root/curl-test.sh 
+   11  sh /root/curl-test.sh 
+   12  sh /root/curl-test.sh 
+   13  sh /root/curl-test.sh 
+   14  sh /root/curl-test.sh 
+   15  kubectl get pods
+   16  kubectl get deployments
+   17  kubectl describe deployment frontend
+   18  ls
+   19  cat curl-
+   20  cat curl-pod.yaml 
+   21  ls -ltr
+   22  cd /root
+   23  ls
+   24  kubectl describe deployment
+   25  kubectl set image deployment --image=kodekloud/webapp-color:v2
+   26  kubectl set image deployment frontend --image=kodekloud/webapp-color:v2
+   27  kubectl set image deployment frontend frontend=kodekloud/webapp-color:v2
+   28  kubectl set image deployment/frontend --help
+   29  kubectl describe deployment
+   30  kubectl set image deployment/frontend kodekloud/webapp-color:v1=kodekloud/webapp-color:v2
+   31  kubectl set image deployment/frontend frontend=kodekloud/webapp-color:v2
+   32  kubectl edit deployment frontend
+   33  kubectl describe deployment
+   34  kubectl describe deployment
+   35  kubectl describe deployment
+   36  kubect get replicasets
+   37  kubectl get replicasets
+   38  kubectl get replicasets
+   39  kubectl get replicasets
+   40  ./curl-test.sh 
+   41  kubectl get replicasets
+   42  kubectl edit deployment frontend
+   43  kubectl apply -f /tmp/kubectl-edit-1921834773.yaml
+   44  kubectl delete deployment frontend 
+   45  kubectl apply -f /tmp/kubectl-edit-1921834773.yaml
+   46  kubectl edit deployment frontend
+   47  vi /tmp/kubectl-edit-1921834773.yaml
+   48  kubectl apply -f /tmp/kubectl-edit-1921834773.yaml
+   49  kubectl get deployment frontend -o yaml
+   50  kubectl get deployment frontend -o yaml > frontend-rolling.yaml
+   51  vi frontend-rolling.yaml 
+   52  kubectl get deployment frontend -o yaml > frontend-rollingupdate.yaml
+   53  kubectl delete deployment frontend 
+   54  kubectl apply -f frontend-rolling
+   55  kubectl apply -f frontend-rolling.yaml 
+   56  kubectl get replicasets
+   57  kubectl describe deployment
+   58  kubectl edit deployment frontend
+   59  kubectl apply -f frontend-rolling.yaml 
+   60  kubectl get pods
+   61  kubectl get pods
+   62  kubectl describe deployments.apps yment
+   63  kubectl describe deployments.apps s
+   64  kubectl describe deployments.apps 
+   65  kubectl get pods
+   66  pwd
+   67  ./curl-test.sh 
+   68  history
+   ```
